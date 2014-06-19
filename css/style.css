@@ -24,6 +24,9 @@ body {
 .thickbottom {
     border-bottom: 3px dashed #dddddd;
 }
+.nav-hidden{
+    display: none;
+}
 /*-------------------PAGE WIDE PROPERTIES------------------------*/
 .plan{
     background-color: #fff;
@@ -64,4 +67,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #ececec;
     text-shadow: 2px 2px 2px #3f3f3f;
+}
+#login-button:hover .nav-hidden{
+    display: block;
 }
