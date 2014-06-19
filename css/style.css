@@ -1,0 +1,67 @@
+/*-------------------GENERAL : BACKGROUNDS, FONTS, PADDINGS...------------------------*/
+body {
+    padding-top: 50px;
+    background-color: #f8f8f8;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.light-bg {
+    background-color: #f8f8f8;
+}
+.dark-bg {
+    background-color: #23201c;
+}
+.background-immo{
+    background: #000000 url("../img/banner.jpg") no-repeat top;
+}
+.uppadded {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.lr-marged {
+    margin: 0 7%;
+}
+.thickbottom {
+    border-bottom: 3px dashed #dddddd;
+}
+/*-------------------PAGE WIDE PROPERTIES------------------------*/
+.plan{
+    background-color: #fff;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    background-origin: padding-box;
+    background-size: auto;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    height: 352px;
+    line-height: 14px;
+    margin: 0 10px 30px 10px;
+    padding: 0 0 20px 0;
+    overflow: hidden;
+}
+.price-header{
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 0;
+}
+.yellow-header {
+    background-color: #f39c12;
+    border-bottom: 10px solid #cd8109;
+}
+.green-header {
+    background-color: #16a085;
+    border-bottom: 10px solid #14937a;
+}
+.price{
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    padding: 20px;
+}
+.tagline{
+    font-family: 'Open Sans', sans-serif;
+    color: #ececec;
+    text-shadow: 2px 2px 2px #3f3f3f;
+}
