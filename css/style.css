@@ -68,6 +68,22 @@ body {
     color: #ececec;
     text-shadow: 2px 2px 2px #3f3f3f;
 }
-#login-button:hover .nav-hidden{
+#login-button form{
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    padding: 10px;
+    bottom: -145px;
+    right: 0;
+    width: 164%;
+    background-color: #808080;
+}
+#login-button input{
+    margin: 5px 0;
+}
+#login-button button{
+     margin: 5px 0 0 0;
+ }
+#login-button:hover form {
     display: block;
 }
